@@ -95,7 +95,7 @@ In this page, tap and hold on `minecraft_server.1.19.jar` and copy the link
 Now, go back to Termux and paste this command + the link you copied
 
 ```bash
-wget -O minecraft_server.jar
+wget -O server.jar
 ```
 Example:
 ![](https://cdn.discordapp.com/attachments/979918594982936646/987388121547161650/Screenshot_2022-06-18-00-07-29-54.jpg)
@@ -124,7 +124,7 @@ After that, Press **CTRL** and then **X**. It will ask for if you want to modify
 ### Finally
 Now you can start your server by runnning this command:
 ```bash
-java -Xmx128M -Xms1024M -jar server.jar nogui
+java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
 ## Socials
 
@@ -140,7 +140,7 @@ Answer: If you want to use more memory, simply multiply 1024 by 2 if you want 2G
 
 Example:
 ```bash
-java -Xmx128M -Xms3072M -jar server.jar nogui
+java -Xmx1024M -Xms3072M -jar server.jar nogui
 ```
 But using much ram your device cannot handle might crash your server. For safer procedure, divide your available RAM by 2 and use that instead :)
 
