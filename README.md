@@ -140,7 +140,7 @@ Answer: If you want to use more memory, simply multiply 1024 by 2 if you want 2G
 
 Example:
 ```bash
-java -Xmx1024M -Xms3072M -jar server.jar nogui
+java -Xms128M -Xmx3072M -jar server.jar nogui
 ```
 But using much ram your device cannot handle might crash your server. For safer procedure, divide your available RAM by 2 and use that instead :)
 
